@@ -6,5 +6,5 @@ import retrofit2.http.GET
 interface ApiInterface {
 
     @GET("gimme")
-    fun genData():Call<ResponseDataClass>
+    fun getData():Call<ResponseDataClass>
 }

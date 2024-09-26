@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        RetroFitInstance.apiInterface.getData().enqueue(object : Callback<ResponseDataClass?> {
+        RetroFitInstance.apiInterface.genData().enqueue(object : Callback<ResponseDataClass?> {
             override fun onResponse(
                 call: Call<ResponseDataClass?>,
                 response: Response<ResponseDataClass?>
